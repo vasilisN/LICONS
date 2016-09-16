@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+  <content>
 # LICONS
 TODO: In this theme you will find 108 LICONS (Line Animated Icons). The theme is based on Google's material design colors.
 There are 72 monochromatic Icons(6 dozens) and 36 multi-COLORED Icons(3 dozens). You can easily find them on each ICONS SET section.
@@ -105,34 +105,19 @@ It's up to you to add custom CSS!
 I've used the following CSS files, icons, and Javascript files as listed.
 
 CSS files
-
 https://daneden.github.io/animate.css/ animate.css MIT License
+
 Icons 
-
 http://ionicons.com/ Ionicons MIT License
+
 Javascript files
-
 https://maxwellito.github.io/vivus/ vivus.js MIT License
-https://jquery.com/ jQuery
 http://mynameismatthieu.com/WOW/ wow.js MIT License
+https://jquery.com/ jQuery
+
 Others
-
-https://www.google.com/design/spec/style/color.html# Google material design colors
-I've used Bootstrap framework too.
-
 http://getbootstrap.com/
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
-## Credits
-TODO: Write credits
-## License
-TODO: Write license
+
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
