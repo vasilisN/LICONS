@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-# ${1:LICONS}
+# LICONS
 TODO: In this theme you will find 108 LICONS (Line Animated Icons). The theme is based on Google's material design colors.
 There are 72 monochromatic Icons(6 dozens) and 36 multi-COLORED Icons(3 dozens). You can easily find them on each ICONS SET section.
 
@@ -28,16 +28,19 @@ In index.html you can find every svg icon and edit the fill-color, stroke-color 
 
 Although, it is more easier for you to do this with CSS! You just have to pick the desired svg icon using the id. Here is an example. Add the following code at the bottom of the licons.css file:
 
+'''CSS
  #wineglass *{
     fill: violet;
     stroke: limegreen;
     stroke-width: 15px;
 }
+'''
+
 Making stylish changes for multi-colored icons
 
 You can change the attributes of any icon using custom css for each svg (or making the changes directly on html code). In case you want to use css for this, you have to add an id in every element(path,circle,polygon) you want to edit. eg.
 
-#ribbon1 path:nth-child(3){ /*changing the 3rd path of #ribbon1*/
+#ribbon1 path:nth-child(3){
     fill: violet;
     stroke: limegreen;
     stroke-width: 15px;
