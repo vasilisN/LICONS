@@ -67,19 +67,17 @@ Making time changes
 Every svg icon has a unique id and it is related with a Javascript code-line.
 
 Here is an example for wineglass icon
-
+```javascript 
     /*---------------------------ICONS SET 1----------------------------*/
     //First(1) row
-```javascript    
     new Vivus('wineglass', { forceRender:true});
 ```
 The forceRender attribute is used for IE svg animation support.
 
 In case you want to change the animation duration you can add the duration attribute
-
+```javascript   
     /*---------------------------ICONS SET 1----------------------------*/
     //First(1) row
-```javascript    
     new Vivus('wineglass', { forceRender:true, duration: 450 });
 ```    
 The duration attribute is responsible for the time of the animation(change this to whatever you want!).
@@ -102,22 +100,20 @@ add to your html file the vivus.js file like this
 It's up to you to add custom CSS!
 
 ##SOURCES AND CREDITS
-I've used the following CSS files, icons, and Javascript files as listed.
 
 CSS files
-https://daneden.github.io/animate.css/ animate.css MIT License
+- https://daneden.github.io/animate.css/ animate.css MIT License
 
 Icons 
-http://ionicons.com/ Ionicons MIT License
+- http://ionicons.com/ Ionicons MIT License
 
 Javascript files
-https://maxwellito.github.io/vivus/ vivus.js MIT License
-http://mynameismatthieu.com/WOW/ wow.js MIT License
-https://jquery.com/ jQuery
+- https://maxwellito.github.io/vivus/ vivus.js MIT License
+- http://mynameismatthieu.com/WOW/ wow.js MIT License
+- https://jquery.com/ jQuery
 
 Others
-http://getbootstrap.com/
+- http://getbootstrap.com/
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
+</content>
 </snippet>
