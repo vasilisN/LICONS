@@ -160,7 +160,7 @@
     new Vivus('bin_colored', { forceRender:true  });
     new Vivus('circled_checkmark', { forceRender:true  });
     new Vivus('medkit', { forceRender:true  });
-    new Vivus('carrot', { forceRender:true  });
+    new Vivus('carrott', { forceRender:true  });
 
 
 
